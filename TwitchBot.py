@@ -8,7 +8,6 @@ BOT_PREFIX = "!" #This is the character that goes before every command
 CHANNEL = "Channel name" #Name of the channel you want to run the bot
 ACCESS_TOKEN = "YOUR TOKEN HERE" #Access Token from twitch. you can get it here: https://twitchtokengenerator.com/
 
-
 class Bot(commands.Bot):
     def __init__(self):
         
@@ -47,6 +46,5 @@ class Bot(commands.Bot):
         else:
             await ctx.send(f'NO!')
         
-
 bot = Bot()
 bot.run()
