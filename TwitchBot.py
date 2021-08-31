@@ -1,7 +1,4 @@
-import os
 import random
-from dotenv import load_dotenv
-from os.path import join, dirname
 from twitchio import user
 from twitchio.ext import commands
 
