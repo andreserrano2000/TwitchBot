@@ -1,5 +1,5 @@
 # TwitchBot
-Base of the Twitch Bot I built.
+Base of the python Twitch Bot I built.
 
 
 - André Serrano.
